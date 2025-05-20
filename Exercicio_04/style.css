@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Exile&display=swap);
+
+
+.fundo{
+    background-color: bisque;
+}
+
+.titulo{
+    color:aqua;
+    text-align: center;
+    font-size: 50px;
+
+    font-family: 'Exile';
+    font-weight: 800;
+    font-style: italic;
+}
