@@ -1,0 +1,19 @@
+
+
+
+.button {
+    background-color:blue; /* Green */
+    border: none;
+    margin: 10%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    margin: 25px, 50px, 100px;
+  
+  }
