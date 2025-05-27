@@ -1,19 +1,80 @@
+*{
+  margin: 0;
+}
 
 
-
-.button {
-    background-color:blue; /* Green */
-    border: none;
-    margin: 10%;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 16px;
-    padding: 21.5px 0;
-    margin: 25px, 50px, 100px;
-  
+.fundo {
+   height: 100vh;
   }
+
+.grade{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 500px 500px 500xp;
+}
+
+.quadrado-pai{
+  background-color: tomato;
+
+  width: 370px;
+  height: 370px;
+  
+  
+  /* margin: 100px; */
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+  background-color: #13678A;
+  border: 3px solid #012030;
+  color: #DAFDBA;  
+  border-radius: 20px;
+  text-align: center;
+
+  /* padding: 10px; */
+  /* padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; */
+}
+
+.quadrado-pai img{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+
+
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.quadrado-pai a{
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: lowercase;
+  
+  background-color: black;
+
+  padding: 5px;
+  border-radius: 20px;
+  border: 3px solid #DAFDBA;
+  transition: 0.7s;
+}
+
+.quadrado-pai a:hover{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: lowercase;
+  
+  background-color: #DAFDBA;
+
+  padding: 5px;
+  border-radius: 20px;
+  border: 3px solid black;
+  transition: 0.7s;
+  
+}
